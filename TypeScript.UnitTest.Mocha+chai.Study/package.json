@@ -1,0 +1,22 @@
+{
+  "name": "TypeScript.UnitTest.Mocha.Study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --require ts-node/register tests/**/*.spec.ts"
+  },
+  "devDependencies": {
+    "@types/chai": "*",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "*",
+    "chai": "*",
+    "mocha": "*",
+    "ts-mocha": "^10.0.0",
+    "typescript": "^5.5.3"
+  },
+  "private": true
+}
