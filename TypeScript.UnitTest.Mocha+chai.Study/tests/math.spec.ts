@@ -6,7 +6,7 @@
  * @Description  :
  * Copyright (c) 2025 by Hiland & RainyTop, All Rights Reserved.
  */
-import { expect } from 'chai';
+import { expect,assert } from 'chai';
 import { describe, it } from "mocha";
 
 import { Math } from '../src/math';
@@ -35,7 +35,8 @@ describe('math', () => {
 
     it('divide', () => {
         expect(Math.divide(1, 2)).equals(0.5);
-        expect(Math.divide(0, 0)).equals(NaN);
+        expect(Math.divide(0, 0)).be.NaN;
         expect(Math.divide(-1, -2)).equals(0.5);
+        // assert.isNaN(Math.divide(1, 0));
     });
 });

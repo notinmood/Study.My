@@ -16,6 +16,7 @@
     "chai": "*",
     "mocha": "*",
     "ts-mocha": "^10.0.0",
+    "ts-node":"*",
     "typescript": "^5.5.3"
   },
   "private": true

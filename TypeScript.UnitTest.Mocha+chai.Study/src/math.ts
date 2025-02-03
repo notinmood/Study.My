@@ -23,4 +23,9 @@ export class Math{
     static divide(a: number, b: number): number {
         return a / b;
     }
+
+    static isEmpty(): boolean {
+        throw new Error("Something went wrong");
+        return 0 === 0;
+    }
 };
