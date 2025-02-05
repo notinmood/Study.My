@@ -1,1 +1,0 @@
-因为Python资料已经形成体系。所以将Python的学习代码，独处出去形成新的仓库：Study.Python
