@@ -30,6 +30,6 @@ default = true
 
 ## 打包
 
-1. 配置pyproject.toml：# TODO:xiedali@2025/04/12 目前还不知道怎么配置
+1. 配置pyproject.toml：其中项目的名称name，必须跟项目中的某个文件夹的名称相同，这个文件可以是根目录下的文件夹也可以是src目录下的子文件夹。只有这个文件夹下的文件才会被打包发布，并被其他人安装识别。
 2. 打包：`uv build`
 3. 上传：`uv publish`
