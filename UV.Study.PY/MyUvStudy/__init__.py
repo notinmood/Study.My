@@ -6,3 +6,6 @@
  * @creator: ShanDong Xiedali
  * @company: Less is more.Simple is best!
 """
+
+def main() -> None:
+    print("Hello from MyUvStudy!")
